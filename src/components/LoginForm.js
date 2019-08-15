@@ -25,7 +25,7 @@ handleChange = event => {
   
   render() {
     return (
-      <form>
+      <form onSubmit={this.handleSubmit}>
         <div>
           <label>
             Username
